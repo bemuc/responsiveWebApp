@@ -1,6 +1,7 @@
 /*
-footer section
+    FOOTER 
 */
+
 #footer{
     padding: 3rem 0;
     background-image: url(../../assets/backgroundimg2.jpg);
@@ -9,21 +10,21 @@ footer section
     background-position: 40% 90%;
 
     .company{
-        .d-flex >a{
-        text-decoration: none;
-        color: $dark;
-        font-size: .9rem;
-        margin: .3rem 0;
-        &:hover{
-            color:$purple;
-        }
+        .d-flex > a{
+            text-decoration: none;
+            color: $dark;
+            font-size: .9rem;
+            margin: .3rem 0;
+            &:hover{
+                color: $purple;
+            }
         }
     }
     .newsletter{
         padding: 3rem;
-        >.d-flex input.form-control{
+        > .d-flex input.form-control{
             border: none;
-            width:200px ;
+            width: 200px;
             font-size: 1rem;
             margin: .8rem 0;
             background-color: $light;
@@ -33,14 +34,15 @@ footer section
                 padding: 0 1rem;
             }
         }
-        >button{
+        > button{
             background-color: $dark;
             color: white;
             padding: .3rem 1.5rem;
             border-radius: 4rem;
             font-size: .8rem;
             &:hover{
-                background-color:$purple;
+                background-color: $purple;
+                
             }
         }
     }
